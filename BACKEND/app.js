@@ -3,7 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import faceAuthRoutes from "./routes/faceAuthRoutes.js";
-import attendanceRoutes from "./routes/EmployeeattendanceRoutes.js"; // ✅ FIXED: correct filename is EmployeeattendanceRoutes.js
+import attendanceRoutes from "./routes/Employeeattendanceroutes.js"; // ✅ FIXED: correct filename is EmployeeattendanceRoutes.js
 
 dotenv.config();
 
